@@ -11,19 +11,17 @@ import Nav from "./components/nav/Nav";
 
 const App = () => {
   return (
-    <div>
-      <>
-        <Header />
-        <Nav />
-        <About />
-        <Experience />
-        <Services />
-        <Portfolio />
-        <Testimonials />
-        <Contact />
-        <Footer />
-      </>
-    </div>
+    <>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </>
   );
 };
 
