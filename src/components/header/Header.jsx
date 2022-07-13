@@ -1,10 +1,18 @@
-import React from 'react'
-import './header.css'
+import React from "react";
+import "./header.css";
+import CTA from "./CTA";
 
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <header>
+      <div className="container header__container">
+        <h5>Hello I'm</h5>
+        <h1>John Paul</h1>
+        <h5 className="text-light">Fullstack Developer</h5>
+        <CTA />
+      </div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
