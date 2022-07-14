@@ -6,10 +6,10 @@ import { FaTwitter } from "react-icons/fa";
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://linkedin.com" target="_blank">
+      <a href="https://www.linkedin.com/in/john-paul-739a84136" target="_blank">
         <BsLinkedin />
       </a>
-      <a href="https://github.com" target="_blank">
+      <a href="https://github.com/johngolem" target="_blank">
         <ImGithub />
       </a>
       <a href="https://dribble.com" target="_blank">
