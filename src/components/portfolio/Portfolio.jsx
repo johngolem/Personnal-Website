@@ -12,6 +12,12 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="portolio image 1" />
           </div>
+          {/* <div className="portfolio__item-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            soluta consequatur doloribus ut eaque dicta saepe dolore? Optio
+            aspernatur explicabo error et dolorum! Facilis, assumenda. Similique
+            impedit qui blanditiis perferendis.
+          </div> */}
           <h3>This is portfolio item title</h3>
           <a href="https://github.com" className="btn">
             Github Link
