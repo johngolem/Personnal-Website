@@ -1,4 +1,5 @@
 import React from "react";
+import "./header.css";
 import { BsLinkedin } from "react-icons/bs";
 import { ImGithub } from "react-icons/im";
 import { FaTwitter } from "react-icons/fa";

@@ -11,13 +11,17 @@
 }
 /*=========================================== CONSTANTS======================================= */
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4bd5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  /* --color-bg: #1f1f38; */
+  /* --color-bg-variant: #2c2c6c; */
+  /* --color-primary: #4bd5ff; */
+  /* --color-primary-variant: rgba(77, 181, 255, 0.4); */
   --color-light: rgba(255, 255, 255, 0.6);
   --color-white: #fff;
   --color-brown: rgb(227, 234, 149);
+  --color-primary: #e3361b;
+  --color-primary-variant: rgba(32, 195, 41, 0.4);
+  --color-bg: #b5beb5;
+  --color-bg-variant: #131312;
 
   --transition: all 400ms ease;
 
@@ -34,11 +38,18 @@ html {
 }
 body {
   font-family: "Abel", sans-serif;
-  background: var(--color-bg);
+  /* background: var(--color-bg); */
+  background: #555555;
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bgdark.jpeg);
-  
+  background-image: url(../src/assets/matter.webp);
+  /* background-image: url(../src/assets/neo.jpeg); */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  background-repeat: repeat-y;
+  /* background-size: cover; */
 }
 /*====================================== GENERAL STYLES ==================================*/
 .container {
@@ -54,11 +65,11 @@ h5 {
   font-weight: 500;
 }
 h1 {
-  font-size: 2.5 rem;
+  font-size: 3.5 rem;
 }
 section {
   margin-top: 8rem;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 section > h2,
@@ -94,9 +105,11 @@ a:hover {
   transition: var(--transition);
 }
 .btn:hover {
-  background: var(--color-bg);
+  /* background: var(--color-bg); */
+  background: transparent;
   color: var(--color-bg);
-  border-color: transparent;
+  /* border-color: transparent; */
+  border-color: var(--color-primary-variant);
 }
 .btn-primary {
   background: var(--color-primary);

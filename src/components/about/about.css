@@ -19,11 +19,11 @@
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(40deg);
+  transform: rotate(20deg);
   transition: var(--transition);
 }
 .about__me-image:hover {
-  transform: rotate(-40deg);
+  transform: rotate(-20deg);
 }
 .about__cards {
   display: grid;
@@ -44,19 +44,20 @@
   border-color: var(--color-primary-variant);
   cursor: default;
 }
-\.about__icon {
+.about__icon {
   color: var(--color-primary);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
 .about__card h5 {
-  font-size: 0.75rem;
+  font-size: 2rem;
   color: var(--color-light);
 }
 
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  font-size: 1.1rem;
 }
 
 /*=============================== MEDIA QUERIES (MEDIUM DEVICES) ================*/
