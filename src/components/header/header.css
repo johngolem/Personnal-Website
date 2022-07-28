@@ -73,7 +73,8 @@ h1 {
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: 4s ease-in-out;
-  transition: 0.3s ease-in-out;
+  /* transition: 0.3s ease-in-out; */
+  transition: var(--transition);
 }
 
 .me :hover {
