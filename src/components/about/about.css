@@ -50,13 +50,14 @@
   margin-bottom: 1rem;
 }
 .about__card h5 {
-  font-size: 0.75rem;
+  font-size: 2rem;
   color: var(--color-light);
 }
 
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  font-size: 1.1rem;
 }
 
 /*=============================== MEDIA QUERIES (MEDIUM DEVICES) ================*/
