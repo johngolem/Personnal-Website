@@ -13,33 +13,45 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <BsStack />
-              <h4>Flutter</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Rest API</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsStack />
-              <h4>HTML</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>HTML</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsStack />
-              <h4>Bootstrap</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Bootstrap</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsStack />
-              <h4>CSS</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>CSS</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsStack />
-              <h4>REACT</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>React</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsStack />
-              <h4>ANGULAR</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Angular</h4>
+                <small>Experienced</small>
+              </div>
             </article>
           </div>
         </div>
@@ -49,33 +61,45 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <BsStack />
-              <h4>Django</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Django</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsStack />
-              <h4>Nodejs</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Nodejs</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsStack />
-              <h4>Laravel</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Laravel</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsStack />
-              <h4>Docker</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Docker</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsStack />
-              <h4>Kubernetes</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Kubernetes</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsStack />
-              <h4>Postgres SQL</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Postgres SQL</h4>
+                <small>Experienced</small>
+              </div>
             </article>
           </div>
         </div>
@@ -85,8 +109,10 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <BsStack />
-              <h4>Django</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Flutter</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <div />
           </div>
