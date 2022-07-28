@@ -19,11 +19,11 @@
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(40deg);
+  transform: rotate(20deg);
   transition: var(--transition);
 }
 .about__me-image:hover {
-  transform: rotate(-40deg);
+  transform: rotate(-20deg);
 }
 .about__cards {
   display: grid;

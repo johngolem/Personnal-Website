@@ -11,13 +11,17 @@
 }
 /*=========================================== CONSTANTS======================================= */
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4bd5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  /* --color-bg: #1f1f38; */
+  /* --color-bg-variant: #2c2c6c; */
+  /* --color-primary: #4bd5ff; */
+  /* --color-primary-variant: rgba(77, 181, 255, 0.4); */
   --color-light: rgba(255, 255, 255, 0.6);
   --color-white: #fff;
   --color-brown: rgb(227, 234, 149);
+  --color-primary: #c2d833;
+  --color-primary-variant: rgba(32, 195, 41, 0.4);
+  --color-bg: #36b82f;
+  --color-bg-variant: #a1bb1e;
 
   --transition: all 400ms ease;
 
@@ -37,8 +41,8 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bgdark.jpeg);
-  
+  /* background-image: url(../src/assets/bgdark.jpeg); */
+  background-image: url(../src/assets/neo.jpeg);
 }
 /*====================================== GENERAL STYLES ==================================*/
 .container {
@@ -94,7 +98,8 @@ a:hover {
   transition: var(--transition);
 }
 .btn:hover {
-  background: var(--color-bg);
+  /* background: var(--color-bg); */
+  background: transparent;
   color: var(--color-bg);
   border-color: transparent;
 }
