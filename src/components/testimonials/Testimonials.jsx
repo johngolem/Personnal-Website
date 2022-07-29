@@ -1,4 +1,14 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper";
+
 import "./testimonials.css";
 import avt1 from "../../assets/avatar1.jpeg";
 
@@ -29,19 +39,26 @@ const Testimonials = () => {
       <h5>Reviews From Clients</h5>
       <h2>What people say</h2>
 
-      <div className=" container testimonials-container">
+      <Swiper
+        pagination={{
+          dynamicBullets: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+        // className=" container testimonials-container">
+      >
         {data.map(({ avatar, name, review }) => {
           return (
-            <article className="testimonial">
+            <SwiperSlide className="testimonial">
               <div className="client__avatar">
                 <img src={avatar} alt="avatar1" />
               </div>
               <h5 className="client__name">{name}</h5>
               <small className="client__review">{review}</small>
-            </article>
+            </SwiperSlide>
           );
         })}
-      </div>
+      </Swiper>
     </section>
   );
 };
