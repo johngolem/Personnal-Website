@@ -53,3 +53,19 @@ footer a {
 .twitter {
   background: #3b5998;
 }
+
+.footer__copyright {
+  margin-bottom: 4rem;
+  color: var(--color-bg);
+}
+
+/*=============================== MEDIA QUERIES (SMALL DEVICES) ================*/
+@media screen and (max-width: 600px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .footer__socials {
+    margin-bottom: 2.6rem;
+  }
+}

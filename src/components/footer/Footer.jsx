@@ -23,7 +23,7 @@ const Footer = () => {
           <a href="#services">Services</a>
         </li>
         <li>
-          <a href="testimonials#">Testimonials</a>
+          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
           <a href="#portfolio">Portfolio</a>
@@ -33,14 +33,17 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a  className="whatsapp"
-        href="https://www.facebook.com" target="_blank">
+        <a className="whatsapp" href="https://www.facebook.com" target="_blank">
           <ImWhatsapp />
         </a>
-        <a className="instagram" href="https://www.instagram.com" target="_blank">
+        <a
+          className="instagram"
+          href="https://www.instagram.com"
+          target="_blank"
+        >
           <BsInstagram />
         </a>
-        <a  className="twitter" href="https://www.twitter.com" target="_blank">
+        <a className="twitter" href="https://www.twitter.com" target="_blank">
           <ImTwitter />
         </a>
       </div>
