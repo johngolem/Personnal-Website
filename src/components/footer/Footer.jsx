@@ -5,8 +5,8 @@ import { BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer id="footer">
-      <a href="#" className="footer_logo">
+    <footer>
+      <a href="#" className="footer__logo">
         John Paul
       </a>
       <ul className="permalinks">
@@ -33,19 +33,20 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://www.facebook.com" target="_blank">
+        <a  className="whatsapp"
+        href="https://www.facebook.com" target="_blank">
           <ImWhatsapp />
         </a>
-        <a href="https://www.instagram.com" target="_blank">
+        <a className="instagram" href="https://www.instagram.com" target="_blank">
           <BsInstagram />
         </a>
-        <a href="https://www.twitter.com" target="_blank">
+        <a  className="twitter" href="https://www.twitter.com" target="_blank">
           <ImTwitter />
         </a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; JohnPaul.  All rights reserved.</small>
+        <small>&copy; JohnPaul. All rights reserved.</small>
       </div>
     </footer>
   );
