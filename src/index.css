@@ -39,10 +39,10 @@ html {
 body {
   font-family: "Abel", sans-serif;
   /* background: var(--color-bg); */
-  background: #555555;
+  background: #292929;
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/matter.webp);
+  /* background-image: url(../src/assets/matter.webp); */
   /* background-image: url(../src/assets/neo.jpeg); */
   height: 100%;
 
