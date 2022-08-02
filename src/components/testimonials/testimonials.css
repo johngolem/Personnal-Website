@@ -1,10 +1,11 @@
 .container.testimonials-container {
   width: 40%;
-}
-.mySwiper {
-  width: 40%;
   padding-bottom: 4rem;
 }
+/* .mySwiper {
+  width: 50%;
+  padding-bottom: 4rem;
+} */
 .client__avatar {
   width: 4rem;
   aspect-ratio: 1/1;

@@ -41,10 +41,10 @@ const Testimonials = () => {
 
       <Swiper
         pagination={{
-          dynamicBullets: true,
+          dynamicBullets: false,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="container testimonials-container "
         // className=" container testimonials-container">
       >
         {data.map(({ avatar, name, review }) => {
