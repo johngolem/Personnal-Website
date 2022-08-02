@@ -9,21 +9,21 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_sbceonu",
-        "template_zl9btv9",
-        form.current,
-        "XRT2qoPIPBgvB4enP"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      "service_sbceonu",
+      "template_zl9btv9",
+      form.current,
+      "XRT2qoPIPBgvB4enP"
+    );
+    e.target.reset();
+    // .then(
+    //   (result) => {
+    //     console.log(result.text);
+    //   },
+    //   (error) => {
+    //     console.log(error.text);
+    //   }
+    // );
   };
   return (
     <section id="contact">
