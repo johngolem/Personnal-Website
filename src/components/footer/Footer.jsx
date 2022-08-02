@@ -1,5 +1,7 @@
 import React from "react";
 import "./footer.css";
+import { ImWhatsapp, ImTwitter } from "react-icons/im";
+import { BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -30,6 +32,21 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      <div className="footer__socials">
+        <a href="https://www.facebook.com" target="_blank">
+          <ImWhatsapp />
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <BsInstagram />
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+          <ImTwitter />
+        </a>
+      </div>
+
+      <div className="footer__copyright">
+        <small>&copy; JohnPaul.  All rights reserved.</small>
+      </div>
     </footer>
   );
 };
