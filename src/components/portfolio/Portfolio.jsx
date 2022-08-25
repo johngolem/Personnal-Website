@@ -34,21 +34,21 @@ const data = [
     image: IMG4,
     title: "Quotes",
     github: "https://github.com/johngolem/Quotes",
-    demo: "https://sahil-sharma.github.io/github-clone/",
+    demo: "https://johngolem.github.io/Quotes/",
   },
   {
     id: 5,
     image: IMG5,
     title: "Pitchsite",
     github: "https://github.com/johngolem/Pitchsite",
-    demo: "https://sahil-sharma.github.io/github-clone/",
+    demo: "https://pickupli.herokuapp.com/",
   },
   {
     id: 6,
     image: IMG6,
     title: "NewsFetch",
     github: "https://github.com/johngolem/NewsFetch",
-    demo: "https://sahil-sharma.github.io/github-clone/",
+    demo: "https://newsfetc.herokuapp.com/",
   },
 ];
 
