@@ -14,11 +14,10 @@
   /* --color-bg: #1f1f38; */
   /* --color-bg-variant: #2c2c6c; */
   /* --color-primary: #4bd5ff; */
-  /* --color-primary-variant: rgba(77, 181, 255, 0.4); */
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgba(240, 240, 246, 0.6);
   --color-white: #fff;
   --color-brown: rgb(227, 234, 149);
-  --color-primary: #e3361b;
+  --color-primary: #030303;
   --color-primary-variant: rgba(32, 195, 41, 0.4);
   --color-bg: #b5beb5;
   --color-bg-variant: #131312;
@@ -39,11 +38,10 @@ html {
 body {
   font-family: "Abel", sans-serif;
   /* background: var(--color-bg); */
-  background: #292929;
+  background: #ffff;
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: url(../src/assets/matter.webp); */
-  /* background-image: url(../src/assets/neo.jpeg); */
+  /* background-image: url(../src/assets/hero.jpeg); */
   height: 100%;
 
   /* Center and scale the image nicely */
@@ -62,10 +60,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 500;
+  font-weight: 900;
 }
 h1 {
-  font-size: 3.5 rem;
+  font-size: 4.5 rem;
 }
 section {
   margin-top: 8rem;
@@ -92,7 +90,7 @@ a {
   transition: var(--transition);
 }
 a:hover {
-  color: var(--color-white);
+  color: var(--color-brown);
 }
 .btn {
   width: max-content;

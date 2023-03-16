@@ -6,7 +6,6 @@ import { RiCodeBoxLine, RiServiceLine } from "react-icons/ri";
 import { MdContacts } from "react-icons/md";
 import { useState } from "react";
 
-
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
@@ -25,13 +24,13 @@ const Nav = () => {
       >
         <AiOutlineUserAdd />
       </a>
-      <a
+      {/* <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
         <FaGraduationCap />
-      </a>
+      </a> */}
       <a
         href="#services"
         onClick={() => setActiveNav("#services")}
