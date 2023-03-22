@@ -9,17 +9,12 @@ import * as Yup from "yup";
 export default function IndividualRegistration() {
   const formik = useFormik({
     initialValues: {
-      identityType: "",
-      idNumber: "",
-      idSerialNumber: "",
-      motherMaiden: "",
-      firstname: "",
-      otherName: "",
-      surName: "",
-      sex: "",
+      companyName: "",
+      regNo: "",
+      country: "",
+      kraPin: "",
       physicAdd: "",
       postalAdd: "",
-      Nationality: "",
     },
 
     // yup Validation
@@ -60,7 +55,7 @@ export default function IndividualRegistration() {
         </Row>
         <Row className="text-danger mt-3 mb-5">
           <Col>
-            <h4>Individual Registration</h4>
+            <h4>Company Registration</h4>
           </Col>
         </Row>
 
@@ -68,18 +63,18 @@ export default function IndividualRegistration() {
         <Form className="mb-5" onSubmit={formik.handleSubmit}>
           <Row className="text-primary mt-5 mb-5 fw-bold">
             <Col>
-              <h4>ID verification</h4>
+              <h4>Registration ...</h4>
             </Col>
           </Row>
           <Row>
             {" "}
             <Form.Group className="mb-3 col-md-4">
-              <Form.Label>ID Number </Form.Label>
+              <Form.Label>Company Name </Form.Label>
               <Form.Control
                 name="idNumber"
-                value={formik.values.idNumber}
+                value={formik.values.companyName}
                 onChange={formik.handleChange}
-                placeholder="Enter ID Number"
+                placeholder="Company Name"
               />
             </Form.Group>
             <Form.Group className="mb-3 col-md-4">
