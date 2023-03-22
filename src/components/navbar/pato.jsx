@@ -148,7 +148,7 @@ function MainNav() {
               <Nav.Link
                 onClick={handleClose}
                 as={Link}
-                to="/services"
+                to="/register"
                 className=" fs-4 fw-semibold"
               >
                 Login{" "}
@@ -157,7 +157,7 @@ function MainNav() {
               <Nav.Link
                 onClick={handleClose}
                 as={Link}
-                to="services"
+                to="/services"
                 className=" fs-4 fw-semibold"
               >
                 Services
