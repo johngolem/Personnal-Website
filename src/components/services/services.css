@@ -1,13 +1,25 @@
+#services {
+  background: #ecd5c5;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:link:hover {
+  text-decoration: none;
+  color: black;
+}
 .services__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
 }
 
 .service {
-  background: var(--color-bg-variant);
+  /* background: var(--color-primary); */
   padding: 2.4rem 5rem;
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 2rem 2rem 2rem 2rem;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
   height: fit-content;
@@ -17,19 +29,22 @@
   background: transparent;
   cursor: default;
   border-color: var(--color-primary-variant);
+  /* border-color: yellow; */
 }
 
 .service__head {
   background: var(--color-primary);
-  padding: 2rem;
-  border-radius: 0 0 2rem 2rem;
-  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+  background: yellowgreen;
+  padding: 2rem 2rem 1rem 3rem;
+  border-radius: 2rem 2rem 2rem 2rem;
+  box-shadow: 2rem 1rem 1rem rgba(37, 234, 16, 0.1);
   transition: var(--transition);
 }
 .service__head:hover {
   background: var(--color-primary-variant);
-  /* background: transparent; */
-  border: 1px solid var(--color-primary-variant);
+  background: blueviolet;
+  background: transparent;
+  border: 3px solid var(--color-primary-variant);
 }
 .service__head h3 {
   margin-bottom: 2rem;

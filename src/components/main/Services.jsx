@@ -1,17 +1,17 @@
 import React from "react";
-import "./about.css";
+import "./services.css";
 import HERO from "../../assets/hero.jpeg";
 import { FaAward, FaFolderOpen } from "react-icons/fa";
 import { ImUsers } from "react-icons/im";
 
-const About = () => {
+const Main = () => {
   return (
     <section id="about">
-      <h2>Services</h2>
+      {/* <h2>Main Services</h2> */}
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={HERO} alt="About image" />
+            <img src={HERO} alt="Nyamira image" />
           </div>
         </div>
 
@@ -54,4 +54,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Main;

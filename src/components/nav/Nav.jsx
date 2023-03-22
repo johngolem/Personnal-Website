@@ -1,8 +1,6 @@
 import React from "react";
 import "./nav.css";
 import { AiOutlineHome, AiOutlineUserAdd } from "react-icons/ai";
-import { FaGraduationCap } from "react-icons/fa";
-import { RiCodeBoxLine, RiServiceLine } from "react-icons/ri";
 import { MdContacts } from "react-icons/md";
 import { useState } from "react";
 
@@ -36,7 +34,7 @@ const Nav = () => {
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
-        <RiServiceLine />
+        {/* <RiServiceLine /> */}
       </a>
       <a
         href="#contact"

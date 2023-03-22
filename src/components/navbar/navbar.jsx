@@ -1,8 +1,5 @@
 import React from "react";
 import "./navbar.css";
-import { ImWhatsapp, ImTwitter } from "react-icons/im";
-import { BsInstagram } from "react-icons/bs";
-import logo from "../../assets/logoNy.png";
 
 const Navbar = () => {
   return (
@@ -11,6 +8,8 @@ const Navbar = () => {
         Nyamira Lands
         <img src={logo} width={200} height={200}></img>
       </a> */}
+
+     
       <h1 className="webname">Nyamira Department of Lands</h1>
       <ul className="permalinks">
         <li>

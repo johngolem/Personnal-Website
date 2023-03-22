@@ -1,23 +1,22 @@
+import Home from "./components/Pages/home";
 import React from "react";
-import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/navbar";
+import { Routes, Route } from "react-router-dom";
+import "./index.css";
+import SearchProperty from "./components/Pages/SearchProperty";
+import NoPage from "./components/Pages/noPage.Jsx";
 import Services from "./components/services/Services";
-import Nav from "./components/nav/Nav";
 
-const App = () => {
+export default function App() {
   return (
-    <>
-      <Navbar />
-      <Nav />
-      <About />
-      <Services />
-      {/* <Testimonials /> */}
-      <Contact />
-      {/* <Footer /> */}
-    </>
+    <div>
+      {" "}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/searchproperty" element={<SearchProperty />} />
+        <Route path="/404" element={<noPage />} />
+        <Route path="*" element={<noPage />} />
+      </Routes>
+    </div>
   );
-};
-
-export default App;
+}
